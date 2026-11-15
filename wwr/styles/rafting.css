@@ -3,8 +3,8 @@
     --secondary-color: #f4a261;
     --accent1-color: #17313b;
     --accent2-color: #e9c46a;
-    --heading-font: "Times New Roman", "Georgea", serif;
-    --body-font: Ariel, Helvetica, sans-serif;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 
@@ -34,15 +34,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    text-align: center;
-    background-color: #6f8a6f;
-    color: #f9fd09;
-    padding: 15px;
-}
+
 
 
 .socialmedia a {
@@ -59,7 +51,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
