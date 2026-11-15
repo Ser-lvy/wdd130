@@ -22,9 +22,9 @@ header, footer {
 footer{
     font-size: 1rem;
 }
-
+/* this is a comment */
 h1{
-    text-align: center;
+    text-align: center; 
     font-size: 1.5rem;
 }
 img {
