@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | The Rapids Rafting Co.</title>
+    <title>Contact Us | The Rapids Rafting Co.</title>
     <meta name="author" content="Levi Malesh">
     <link rel="stylesheet" href="styles/rafting.css">
-    <meta name="description" content="Discover exciting whitewater rafting adventures with The Rapids Rafting Co.">
+    <meta name="description" content="Contact The Rapids Rafting Co. for rafting reservations, adventure inquiries, customer support, and information about our whitewater rafting services.">">
 </head>
 
 <body>
@@ -41,7 +41,7 @@
 
             <!-- Google Map -->
             <div class="contact-map">
-                <iframe src="https://www.google.com/maps?q=Jinja,+Uganda&output=embed" width="100%" height="320" title="Location of The Rapids Rafting Co." loading="lazy">
+                <iframe src="https://www.google.com/maps?q=Jinja,+Uganda&output=embed" width="600" height="320" title="Location of The Rapids Rafting Co." loading="lazy">
                 </iframe>
             </div>
 
@@ -62,20 +62,24 @@
                 <span class="form-label">Message Purpose</span>
 
                 <fieldset>
-                    <label>
-                        <input type="radio" name="purpose" value="general-inquiry" required>
+
+                    <legend>Message Purpose</legend>
+
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general-inquiry" required>
                         General Inquiry
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation-question">
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation-question">
                         Reservation Question
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="website-suggestion">
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="website-suggestion">
                         Website Suggestion
                     </label>
+
                 </fieldset>
 
                 <!-- Message -->
@@ -84,8 +88,8 @@
 
                 <!-- Newsletter -->
                 <span></span>
-                <label class="newsletter">
-                    <input type="checkbox" name="newsletter" value="yes">
+                <label class="newsletter" for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
                     Please subscribe me to the monthly newsletter
                 </label>
 
@@ -137,11 +141,11 @@
         <p>© 2026 The Rapids Rafting Co. | Levi Malesh</p>
         <nav class="socialmedia">
             <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="Facebook Icon"></a>
+                <img src="images/facebook.svg" alt="Facebook "></a>
             <a href="https://linkedin.com">
-                <img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
+                <img src="images/linkedin.svg" alt="LinkedIn "></a>
             <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Instagram Icon"></a>
+                <img src="images/instagram.svg" alt="Instagram "></a>
         </nav>
     </footer>
 </body>
