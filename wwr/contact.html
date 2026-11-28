@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | The Rapids Rafting Co.</title>
+    <meta name="author" content="Levi Malesh">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="Discover exciting whitewater rafting adventures with The Rapids Rafting Co.">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting-logo.jpg" alt="Red script says the Rapids besides blue swirly water splash">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Company Information -->
+        <section class="contact-info">
+            <h1>The Rapids Rafting Co.</h1>
+
+            <address>
+                KIREKA KAMULI ROAD<br>
+                KAMPALA, UGANDA<br>
+                +256 751 208 614<br>
+                <a href="mailto:info@therapidsrafting.com">
+                    info@therapidsrafting.com
+                </a>
+            </address>
+        </section>
+
+        <!-- Map and Contact Form -->
+        <section class="contact-content">
+
+            <!-- Google Map -->
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps?q=Jinja,+Uganda&output=embed" width="100%" height="320" title="Location of The Rapids Rafting Co." loading="lazy">
+                </iframe>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form" action="#" method="get">
+
+                <h2>Contact Us</h2>
+
+                <!-- Name -->
+                <label for="fullname">Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <!-- Message Purpose -->
+                <span class="form-label">Message Purpose</span>
+
+                <fieldset>
+                    <label>
+                        <input type="radio" name="purpose" value="general-inquiry" required>
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation-question">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="website-suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <!-- Message -->
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Type here..." required></textarea>
+
+                <!-- Newsletter -->
+                <span></span>
+                <label class="newsletter">
+                    <input type="checkbox" name="newsletter" value="yes">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <!-- Submit Button -->
+                <span></span>
+                <button type="submit">Get in Touch!</button>
+
+            </form>
+
+        </section>
+
+        <!-- Employee Profiles -->
+        <section class="employee-profiles">
+
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee-gallery">
+
+                <figure>
+                    <img src="images/employee1.jpg" alt="Portrait of the company manager">
+                    <figcaption>
+                        Employee Profile 1
+                        <strong>Company Manager</strong>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Portrait of a rafting guide">
+                    <figcaption>
+                        Employee Profile 2
+                        <strong>Senior Rafting Guide</strong>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Portrait of a customer service representative">
+                    <figcaption>
+                        Employee Profile 3
+                        <strong>Customer Service Representative</strong>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>© 2026 The Rapids Rafting Co. | Levi Malesh</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon"></a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>

@@ -173,3 +173,160 @@ h2 {
     color: var(--accent2-color);
     text-align: center;
 }
+
+/* CONTACT PAGE */
+
+/* Company Information */
+.contact-info {
+    text-align: center;
+    padding: 15px;
+}
+
+.contact-info h1 {
+    margin-bottom: 10px;
+}
+
+.contact-info address {
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: var(--primary-color);
+}
+
+/* Map and Form Layout */
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: start;
+}
+
+.contact-map iframe {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--accent1-color);
+}
+
+/* Contact Form */
+.contact-form {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form h2 {
+    grid-column: 1 / -1;
+    background-color: transparent;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-form > input[type="text"],
+.contact-form > input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+    font-family: var(--body-font);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.form-label {
+    align-self: start;
+}
+
+.contact-form fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-form fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contact-form .newsletter {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent1-color);
+}
+
+/* Employee Profiles */
+.employee-profiles {
+    border: 1px solid var(--accent1-color);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.employee-profiles h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.employee-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.employee-gallery figure img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid var(--accent1-color);
+    box-shadow: 0 0 10px #777;
+}
+
+.employee-gallery figcaption {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.employee-gallery figcaption strong {
+    display: block;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 650px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+
+    .employee-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        grid-template-columns: 100px 1fr;
+    }
+}
